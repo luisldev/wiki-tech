@@ -1,0 +1,301 @@
+[
+  {
+    "model": "DCP-T230",
+    "type": "Multifuncional",
+    "printer_techology": "Inyección de tinta continua",
+    "description": "Impresora 3 en 1 de inyección de tinta continua a color DCP-T230 de la serie InkBenefit Tank de Brother para imprimir, escanear y copiar",
+    "printer_speed": {
+      "ppm": {
+        "black": 27,
+        "color": 11
+      },
+      "ipm": {
+        "black": 16,
+        "color": 9
+      }
+    },
+    "scanner_size": "A4/Carta",
+    "conectivity": ["USB 2.0"],
+    "system_compatibility": [
+      "Windows: 10 Home",
+      "Windows 10 Pro",
+      "Windows 10 Education",
+      "Windows 10 Enterprise",
+      "Windows 11 Home",
+      "Windows 11 Pro",
+      "Windows 11 Education",
+      "Windows 11 Enterprise",
+      "Windows Server 2016, 2019, 2022"
+    ],
+    "max_papper_capacity": {
+      "standard_container": "Hasta 150 hojas",
+      "bypass": "Hasta 1 hoja"
+    },
+    "max_papper_out": "50 hojas (hasta A4/Carta)",
+    "supported_papper_type": "Papel normal, papel para inyección de tinta, papel reciclado, papel satinado",
+    "supported_papper_size": {
+      "standard_container": [
+        "A4",
+        "carta",
+        "legal",
+        "Folio",
+        "ejecutivo",
+        "A5",
+        "A6",
+        "Foto (4x6\")",
+        "ficha (5x8\")",
+        "Foto-2L (5x7\")",
+        "sobre C5",
+        "Com-10",
+        "sobre DL",
+        "monarca"
+      ],
+      "bypass": [
+        "A4",
+        "carta",
+        "legal",
+        "Folio",
+        "ejecutivo",
+        "A5",
+        "A6",
+        "Foto (4x6\")",
+        "ficha (5x8\")",
+        "Foto-2L (5x7\")",
+        "sobre C5",
+        "Com-10",
+        "sobre DL",
+        "monarca"
+      ]
+    },
+    "max_month_job": "Hasta 2,500 páginas",
+    "recommended_month_job": "De 50 a 1,000 páginas",
+    "consumables": {
+      "black": "BTD100BK",
+      "cyan": "BTD100C",
+      "magenta": "BTD100M",
+      "yellow": "BTD100Y"
+    }
+  },
+  {
+    "model": "DCP-T220",
+    "type": "Multifuncional",
+    "printer_techology": "Inyección de tinta continua",
+    "description": "Multifuncional de inyección de tinta a color DCP-T220 de la serie InkBenefit Tank de Brother",
+    "printer_speed": {
+      "ppm": {
+        "black": 28,
+        "color": 11
+      },
+      "ipm": {
+        "black": 16,
+        "color": 9
+      }
+    },
+    "scanner_size": "8.5\" x 11\" (carta/A4)",
+    "conectivity": ["USB 2.0 de alta velocidad"],
+    "system_compatibility": [
+      "Windows: 10/8.1/7 SP1",
+      "macOS (compatibilidad limitada): v10.15.x",
+      "macOS (compatibilidad limitada): 10.14.x",
+      "macOS (compatibilidad limitada): 10.13.6"
+    ],
+    "max_papper_capacity": {
+      "standard_container": "Hasta 150 hojas",
+      "bypass": "1 hoja (bandeja multipropósito)"
+    },
+    "max_papper_out": "50 hojas",
+    "supported_papper_type": "Plano, Papel brillante, Papel Inkjet, Papel reciclado",
+    "supported_papper_size": {
+      "standard_container": [
+        "Carta",
+        "Legal",
+        "Ejecutivo",
+        "A4",
+        "A5",
+        "A6",
+        "Tarjeta de índice (5\" x 8\")",
+        "Sobre (Com-10)",
+        "Sobre (C5)",
+        "Sobre (DL)",
+        "Sobre (Monarch)",
+        "Folio (8\" x 13\")",
+        "Foto (4\" x 6\") 10 x 15 cm"
+      ],
+      "bypass": [
+        "Carta",
+        "Legal",
+        "Ejecutivo",
+        "A4",
+        "A5",
+        "A6",
+        "Tarjeta de índice (5\" x 8\")",
+        "Sobre (Com-10)",
+        "Sobre (C5)",
+        "Sobre (DL)",
+        "Sobre (Monarch)",
+        "Folio (8\" x 13\")",
+        "Foto (4\" x 6\") 10 x 15 cm"
+      ]
+    },
+    "max_month_job": "Hasta 2,500 páginas",
+    "recommended_month_job": "50 a 1,000 páginas",
+    "consumables": {
+      "black": "BTD60BK",
+      "cyan": "BT5001C",
+      "magenta": "BT5001M",
+      "yellow": "BT5001Y"
+    }
+  },
+  {
+    "model": "DCP-T520W",
+    "type": "Multifuncional",
+    "printer_techology": "Inyección de tinta continua",
+    "description": "Multifuncional de inyección de tinta continua DCP-T520W con conectividad inalámbrica, pantalla LCD, para imprimir, copiar o escanear a gran calidad.",
+    "printer_speed": {
+      "ppm": {
+        "black": 30,
+        "color": 12
+      },
+      "ipm": {
+        "black": 17,
+        "color": 9
+      }
+    },
+    "scanner_size": "8.5\" x 11\" (carta / A4)",
+    "conectivity": [
+      "802.11 b/g/n inalámbrica",
+      "USB 2.0 de alta velocidad",
+      "Modo Wi-Fi Direct"
+    ],
+    "system_compatibility": [
+      "Windows: 10/8.1/7 SP1",
+      "macOS: v10.15.x/10.14.x/10.13.6"
+    ],
+    "max_papper_capacity": {
+      "standard_container": "Hasta 150 páginas",
+      "bypass": "Ranura de alimentación manual de una hoja"
+    },
+    "max_papper_out": "50 hojas (hasta A4/carta)",
+    "supported_papper_type": "Papel normal, papel para inyección de tinta, papel reciclado, papel satinado",
+    "supported_papper_size": {
+      "standard_container": [
+        "A4",
+        "carta",
+        "legal",
+        "Folio",
+        "ejecutivo",
+        "A5",
+        "A6",
+        "Foto (4x6\")",
+        "ficha (5x8\")",
+        "Foto-2L (5x7\")",
+        "sobre C5",
+        "Com-10",
+        "sobre DL",
+        "monarca"
+      ],
+      "bypass": [
+        "A4",
+        "carta",
+        "legal",
+        "Folio",
+        "ejecutivo",
+        "A5",
+        "A6",
+        "Foto (4x6\")",
+        "ficha (5x8\")",
+        "Foto-2L (5x7\")",
+        "sobre C5",
+        "Com-10",
+        "sobre DL",
+        "monarca"
+      ]
+    },
+    "max_month_job": "Hasta 2,500 páginas",
+    "recommended_month_job": "50 a 1,000 páginas",
+    "consumables": {
+      "black": "BTD60BK",
+      "cyan": "BT5001C",
+      "magenta": "BT5001M",
+      "yellow": "BT5001Y"
+    }
+  },
+  {
+    "model": "DCP-T530DW",
+    "type": "Multifuncional",
+    "printer_techology": "Inyección de tinta continua",
+    "description": "Impresora 3 en 1 de inyección de tinta continua a color DCP-T530DW de la serie InkBenefit Tank de Brother con conectividad inalámbrica, impresión dúplex y botellas antiderrames.",
+    "printer_speed": {
+      "ppm": {
+        "black": 27,
+        "color": 11
+      },
+      "ipm": {
+        "black": 16,
+        "color": 9
+      }
+    },
+    "scanner_size": "8.5\" x 11.7\" (A4/carta)",
+    "conectivity": [
+      "Inalámbrica 802.11b/g/n (2.4 GHz)/802.11a/n (5 GHz)",
+      "USB 2.0 de alta velocidad"
+    ],
+    "system_compatibility": [
+      "Windows: 10 Home, 10 Pro, 10 Education, 10 Enterprise",
+      "Windows: 11 Home, 11 Pro, 11 Education, 11 Enterprise",
+      "Windows Server 2016, 2019, 2022",
+      "macOS v12, v13, v14",
+      "Chrome"
+    ],
+    "max_papper_capacity": {
+      "standard_container": "Bandeja de papel de 150 hojas",
+      "bypass": "Ranura de alimentación manual de 1 hoja"
+    },
+    "max_papper_out": "50 hojas (hasta A4/carta)",
+    "supported_papper_type": "Papel normal, papel para inyección de tinta, papel reciclado, papel satinado",
+    "supported_papper_size": {
+      "standard_container": [
+        "A4",
+        "carta",
+        "legal",
+        "legal de México",
+        "Folio",
+        "ejecutivo",
+        "A5",
+        "A6",
+        "Foto (4x6\")",
+        "ficha (5x8\")",
+        "Foto-2L (5x7\")",
+        "sobre C5",
+        "Com-10",
+        "sobre DL",
+        "monarca"
+      ],
+      "bypass": [
+        "A4",
+        "carta",
+        "legal",
+        "legal de México",
+        "Folio",
+        "ejecutivo",
+        "A5",
+        "A6",
+        "Foto (4x6\")",
+        "ficha (5x8\")",
+        "Foto-2L (5x7\")",
+        "sobre C5",
+        "Com-10",
+        "sobre DL",
+        "monarca"
+      ]
+    },
+    "max_month_job": "Hasta 2.500 páginas",
+    "recommended_month_job": "50 a 1.000 páginas",
+    "consumables": {
+      "black": "BTD100BK",
+      "cyan": "BTD100C",
+      "magenta": "BTD100M",
+      "yellow": "BTD100Y"
+    }
+  }
+]

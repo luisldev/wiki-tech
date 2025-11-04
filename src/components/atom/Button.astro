@@ -1,0 +1,28 @@
+---
+export interface Props {
+  variant?: "primary" | "secondary" | "warning" | "error" | "dark";
+  class?: string;
+}
+const { variant = "primary", class: className } = Astro.props;
+
+const baseClasses =
+  "inline-flex items-center gap-x-2 text-sm font-medium rounded-lg disabled:opacity-50 disabled:pointer-events-none px-2 py-1";
+
+const variantClasses = {
+  primary:
+    "bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700",
+  secondary:
+    "bg-white text-gray-800 hover:bg-gray-200 focus:outline-none focus:bg-gray-200",
+  warning:
+    "bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-none focus:bg-yellow-600",
+  error:
+    "bg-red-500 text-white hover:bg-red-600 focus:outline-none focus:bg-red-600",
+  dark: "bg-gray-800 text-white hover:bg-gray-900 focus:outline-none focus:bg-gray-900 dark:bg-white dark:text-neutral-800",
+};
+
+const allClasses = `${baseClasses} ${variantClasses[variant]} ${className ?? ""}`;
+---
+
+<button type="button" class={allClasses}>
+  <slot />
+</button>
