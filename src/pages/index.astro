@@ -1,11 +1,26 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "@layouts/Layout.astro";
+import PrinterContainer from "@preact/components/ui/PrinterContainer";
+import UniversalSearchBar from "@preact/UniversalSearchBar";
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Inicio">
+  <main class="min-h-dvh">
+    <div class="mx-auto mt-32 h-dvh text-center space-y-8">
+      <h1
+        class="font-bold font-primary w-full text-5xl md:text-7xl bg-linear-to-r from-blue-600 to-teal-300 bg-clip-text text-transparent"
+      >
+        Buscador de impresoras
+      </h1>
+      <div class="w-full max-w-2xl mx-auto">
+        <UniversalSearchBar />
+      </div>
+    </div>
+  </main>
+  <section>
+    <h2 class="text-4xl font-primary font-semibold text-center">
+      Todos los modelos de impresoras
+    </h2>
+    <PrinterContainer client:load />
+  </section>
 </Layout>
