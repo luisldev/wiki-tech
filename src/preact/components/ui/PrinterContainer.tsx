@@ -20,10 +20,10 @@ export default function PrinterContainer() {
     const icons = [];
     const lower = conn.join(" ").toLowerCase();
     if (lower.includes("wifi") || lower.includes("inalámbrica"))
-      icons.push(<WifiIcon className="w-5 h-5" />);
-    if (lower.includes("usb")) icons.push(<UsbIcon className="w-5 h-5" />);
+      icons.push(<WifiIcon className="size-5" />);
+    if (lower.includes("usb")) icons.push(<UsbIcon className="size-5" />);
     if (lower.includes("ethernet"))
-      icons.push(<EthernetIcon className="w-5 h-5" />);
+      icons.push(<EthernetIcon className="size-5" />);
     return icons;
   };
 
@@ -65,10 +65,10 @@ export default function PrinterContainer() {
             </p>
 
             {/* Velocidades */}
-            <div className="grid grid-cols-2 gap-4 mb-5">
+            <div className="font-secondary grid grid-cols-2 gap-4 mb-4">
               <div className="rounded-lg p-4 shadow">
                 <div className="flex justify-between items-center mb-1">
-                  <SpeedIcon className="w-5 h-5" />
+                  <SpeedIcon className="size-5" />
                   <span className="text-xs font-semibold uppercase">Negro</span>
                 </div>
                 <p className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -79,7 +79,7 @@ export default function PrinterContainer() {
 
               <div className="rounded-lg p-4 shadow">
                 <div className="flex justify-between items-center mb-1">
-                  <SpeedIcon className="w-5 h-5" />
+                  <SpeedIcon className="size-5" />
                   <span className="text-xs font-semibold uppercase">Color</span>
                 </div>
                 <p className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -90,7 +90,7 @@ export default function PrinterContainer() {
             </div>
 
             {/* Tecnología */}
-            <div className="shadow p-4 rounded-2xl dark:bg-neutral-800">
+            <div className="font-secondary shadow p-4 rounded-lg dark:bg-neutral-800">
               <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">
                 Tecnología de impresión
               </p>
