@@ -3,17 +3,13 @@ import type { SVGProps } from "preact/compat";
 export function UsbIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-      <g
-        fill="none"
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-      >
-        <circle cx="10" cy="7" r="1" />
-        <circle cx="4" cy="20" r="1" />
-        <path d="M4.7 19.3L19 5m2-2l-3 1l2 2ZM9.26 7.68L5 12l2 5m3-3l5 2l3.5-3.5" />
-        <path d="m18 12l1-1l1 1l-1 1Z" />
+      <g fill="currentColor">
+        <path d="M10 4.5h1v2h-1zm4 0h-1v2h1z" />
+        <path
+          fill-rule="evenodd"
+          d="M7 8.5v-7h10v7h2v11a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-11zm2-5h6v5H9zm8 7H7v9a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1z"
+          clip-rule="evenodd"
+        />
       </g>
     </svg>
   );
