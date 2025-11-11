@@ -1,20 +1,32 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @font-face {
-  font-family: "Plus Jakarta Sans";
+  font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 200 700;
-  src: url("/fonts/PlusJakartaSans-VariableFont.ttf") format("woff2");
+  src: url('/fonts/PlusJakartaSans-VariableFont.ttf') format('woff2');
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 200 700;
-  src: url("/fonts/OpenSans-VariableFont.ttf") format("woff2");
+  src: url('/fonts/OpenSans-VariableFont.ttf') format('woff2');
 }
 
 @theme {
-  --font-primary: "Plus Jakarta Sans", ui-sans-serif;
-  --font-secondary: "Open Sans", ui-sans-serif;
+  --font-primary: 'Plus Jakarta Sans', ui-sans-serif;
+  --font-secondary: 'Open Sans', ui-sans-serif;
+}
+
+/* Scrollbar nativo con estilos */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a3a3a3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #737373;
 }

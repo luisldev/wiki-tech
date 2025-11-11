@@ -1,24 +1,24 @@
 ---
-import Layout from "@layouts/Layout.astro";
-import PrinterContainer from "@preact/components/ui/PrinterContainer";
-import UniversalSearchBar from "@preact/UniversalSearchBar";
+import Layout from '@layouts/Layout.astro';
+import PrinterContainer from '@preact/components/ui/PrinterContainer';
+import UniversalSearchBar from '@preact/UniversalSearchBar';
 ---
 
-<Layout title="Inicio">
-  <main class="min-h-dvh">
-    <div class="mx-auto mt-32 h-dvh text-center space-y-8">
+<Layout title='Inicio'>
+  <main class='min-h-dvh'>
+    <div class='mx-auto mt-32 h-[90dvh] text-center space-y-8'>
       <h1
-        class="font-bold font-primary w-full text-5xl md:text-7xl bg-linear-to-r from-blue-600 to-teal-300 bg-clip-text text-transparent"
+        class='font-bold font-primary w-full text-6xl md:text-7xl bg-linear-to-r from-blue-600 to-teal-300 bg-clip-text text-transparent'
       >
         Buscador de impresoras
       </h1>
-      <div class="w-full max-w-2xl mx-auto">
+      <div class='w-full max-w-2xl mx-auto'>
         <UniversalSearchBar />
       </div>
     </div>
   </main>
   <section>
-    <h2 class="text-4xl font-primary font-semibold text-center">
+    <h2 class='text-5xl font-primary font-semibold text-center'>
       Todos los modelos de impresoras
     </h2>
     <PrinterContainer client:load />
