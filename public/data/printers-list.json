@@ -1,0 +1,105 @@
+[
+  {
+    "brand": "Brother",
+    "series": "InkBenefit Tank",
+    "model": "DCP-T230",
+    "type": "Multifuncional",
+    "printer_technology": "Inyección de tinta a color (sistema InkBenefit Tank)",
+    "description": "Impresora 3 en 1 de inyección de tinta continua a color DCP-T230 de la serie InkBenefit Tank de Brother para imprimir, escanear y copiar.",
+    "printer_speed": {
+      "ppm": { "black": 27, "color": 11 }
+    },
+    "connectivity": ["USB 2.0 de alta velocidad"]
+  },
+  {
+    "brand": "Brother",
+    "series": "InkBenefit Tank",
+    "model": "DCP-T220",
+    "type": "Multifuncional",
+    "printer_technology": "Inyección de tinta continua",
+    "description": "Multifuncional de inyección de tinta a color DCP-T220 de la serie InkBenefit Tank de Brother.",
+    "printer_speed": {
+      "ppm": { "black": 28, "color": 11 }
+    },
+    "connectivity": ["USB 2.0 de alta velocidad"]
+  },
+  {
+    "brand": "Brother",
+    "series": "InkBenefit Tank",
+    "model": "DCP-T520W",
+    "type": "Multifuncional",
+    "printer_technology": "Inyección de tinta continua",
+    "description": "Multifuncional de inyección de tinta continua DCP-T520W con conectividad inalámbrica, pantalla LCD y funciones de impresión, copiado y escaneo de alta calidad.",
+    "printer_speed": {
+      "ppm": { "black": 30, "color": 12 }
+    },
+    "connectivity": [
+      "Inalámbrica 802.11 b/g/n",
+      "Wi-Fi Direct",
+      "USB 2.0 de alta velocidad"
+    ]
+  },
+  {
+    "brand": "Brother",
+    "series": "InkBenefit Tank",
+    "model": "DCP-T530DW",
+    "type": "Multifuncional",
+    "printer_technology": "Inyección de tinta a color (sistema InkBenefit Tank)",
+    "description": "Impresora 3 en 1 de inyección de tinta continua DCP-T530DW con conectividad inalámbrica, impresión dúplex automática y botellas antiderrames.",
+    "printer_speed": {
+      "ppm": { "black": 27, "color": 11 }
+    },
+    "connectivity": [
+      "Inalámbrica 802.11b/g/n (2.4 GHz) / 802.11a/n (5 GHz)",
+      "USB 2.0 de alta velocidad"
+    ]
+  },
+  {
+    "brand": "Brother",
+    "series": "InkBenefit Tank",
+    "model": "DCP-T730DW",
+    "type": "Multifuncional",
+    "printer_technology": "Inyección de tinta a color (sistema InkBenefit Tank)",
+    "description": "Impresora 3 en 1 de inyección de tinta a color DCP-T730DW de la serie InkBenefit Tank de Brother con ADF de 20 hojas, conectividad inalámbrica e impresión dúplex.",
+    "printer_speed": {
+      "ppm": { "black": 27, "color": 23 }
+    },
+    "connectivity": [
+      "Inalámbrica 802.11b/g/n (2.4 GHz) / 802.11a/n (5 GHz)",
+      "USB 2.0 de alta velocidad"
+    ]
+  },
+  {
+    "brand": "Brother",
+    "series": "InkBenefit Tank",
+    "model": "MFC-T920DW",
+    "type": "Multifuncional",
+    "printer_technology": "Inyección de tinta a color (sistema InkBenefit Tank)",
+    "description": "Impresora, copiadora, escáner y fax 4 en 1 de inyección de tinta a color MFC-T920DW de la serie InkBenefit Tank de Brother. Incluye ADF de 20 hojas, impresión dúplex automática y conectividad inalámbrica y Ethernet.",
+    "printer_speed": {
+      "ppm": { "black": 30, "color": 26 }
+    },
+    "connectivity": [
+      "Inalámbrica 802.11b/g/n",
+      "Ethernet (Red cableada) 10/100BASE-TX",
+      "USB 2.0 de alta velocidad",
+      "Wi-Fi Direct"
+    ]
+  },
+  {
+    "brand": "Brother",
+    "series": "InkBenefit Tank",
+    "model": "MFC-T930DW",
+    "type": "Multifuncional",
+    "printer_technology": "Inyección de tinta a color (sistema InkBenefit Tank)",
+    "description": "Impresora, copiadora, escáner y fax 4 en 1 de inyección de tinta a color MFC-T930DW de la serie InkBenefit Tank. Ofrece conectividad inalámbrica de doble banda (2.4/5 GHz), Ethernet, impresión dúplex automática y ADF de 20 hojas.",
+    "printer_speed": {
+      "ppm": { "black": 30, "color": 26 }
+    },
+    "connectivity": [
+      "Inalámbrica 802.11b/g/n (2.4 GHz) / 802.11a/n (5 GHz)",
+      "Ethernet (Red cableada) 10/100BASE-TX",
+      "USB 2.0 de alta velocidad"
+    ]
+  }
+]

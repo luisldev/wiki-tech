@@ -1,0 +1,54 @@
+{
+  "brand": "Brother",
+  "series": "InkBenefit Tank",
+  "model": "DCP-T730DW",
+  "type": "Multifuncional",
+  "printer_technology": "Inyección de tinta a color (sistema InkBenefit Tank)",
+  "description": "Impresora 3 en 1 de inyección de tinta a color DCP-T730DW de la serie InkBenefit Tank de Brother con ADF de 20 hojas, conectividad inalámbrica e impresión dúplex.",
+  "printer_speed": {
+    "ppm": { "black": 27, "color": 23 },
+    "ipm": { "black": 16, "color": 15 }
+  },
+  "duplex_functionality": { "print_type": "automatic", "scan_copy": false },
+  "has_adf": true,
+  "has_bypass_tray": true,
+  "supports_legal_paper": true,
+  "scanner_size": "8.5\" x 11.7\" (A4/Carta) y 8.5\" x 14\" (Oficio/Legal) a través de ADF",
+  "connectivity": [
+    "Inalámbrica 802.11b/g/n (2.4 GHz) / 802.11a/n (5 GHz)",
+    "USB 2.0 de alta velocidad"
+  ],
+  "system_compatibility": [
+    "Windows: 10 / 11 / Server 2016, 2019, 2022",
+    "macOS: v12, v13, v14",
+    "Chrome OS"
+  ],
+  "max_paper_capacity": { "standard_container": 150, "bypass": 1, "adf": 20 },
+  "max_paper_out": "50 hojas (hasta A4/Carta)",
+  "supported_paper_type": "Papel normal, papel para inyección de tinta, papel reciclado, papel satinado",
+  "supported_paper_size": [
+    "A4",
+    "Carta",
+    "Legal",
+    "Folio",
+    "Ejecutivo",
+    "A5",
+    "A6",
+    "Foto 4x6\"",
+    "Ficha 5x8\"",
+    "Foto 5x7\"",
+    "Sobre C5",
+    "Com-10",
+    "Sobre DL",
+    "Monarca",
+    "Legal/Oficio (ADF)"
+  ],
+  "max_month_job": "Hasta 2,500 páginas",
+  "recommended_month_job": "50 a 1,000 páginas",
+  "consumables": {
+    "black": { "model": "BTD100BK", "yield_pages": 7500 },
+    "cyan": { "model": "BTD100C", "yield_pages": 5000 },
+    "magenta": { "model": "BTD100M", "yield_pages": 5000 },
+    "yellow": { "model": "BTD100Y", "yield_pages": 5000 }
+  }
+}
