@@ -1,4 +1,3 @@
-// Tipado para la velocidad de la impresora
 export interface PrinterSpeed {
   ppm: {
     black: number;
@@ -10,8 +9,6 @@ export interface PrinterSpeed {
   };
 }
 
-// Tipado para la lista de impresoras (printers-list.json)
-// Contiene solo los campos necesarios para renderizar la tarjeta.
 export interface PrinterListSummary {
   brand: string;
   series: string;
@@ -19,7 +16,6 @@ export interface PrinterListSummary {
   type: string;
   printer_technology: string;
   description: string;
-  // La velocidad en el listado solo necesita los valores PPM
   printer_speed: {
     ppm: {
       black: number;
@@ -29,7 +25,6 @@ export interface PrinterListSummary {
   connectivity: string[];
 }
 
-// Tipado para los detalles completos de la impresora (printer-details/{model}.json)
 export interface Printer {
   brand: string;
   series: string;
@@ -64,4 +59,11 @@ export interface Printer {
     magenta: { model: string; yield_pages: number };
     yellow: { model: string; yield_pages: number };
   };
+
+  // NUEVOS CAMPOS AÑADIDOS
+  supported_paper_weight_g_m2: {
+    standard_container: string;
+    bypass: string;
+  };
+  technical_data_sheet_link: string;
 }

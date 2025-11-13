@@ -37,19 +37,20 @@
   "max_paper_out": "50 hojas (hasta A4/Carta)",
   "supported_paper_type": "Papel normal, papel para inyección de tinta, papel reciclado, papel satinado",
   "supported_paper_size": [
-    "A4",
-    "Carta",
-    "Legal",
-    "Executive",
-    "A5",
-    "A6",
-    "Fotografía (10 x 15 cm)",
-    "Tarjeta Índice (12,7 x 20,3 cm)",
-    "Fotografía 2L (13 x 18 cm)",
-    "Sobre C5",
-    "Com-10",
-    "DL",
-    "Monarch"
+    "A4 (21.0cm x 29.7cm)",
+    "Carta (21.6cm x 27.9cm)",
+    "Legal (21.6cm x 35.6cm)",
+    "Folio (21.6cm x 33.0cm)",
+    "Executive (18.4cm x 26.7cm)",
+    "A5 (14.8cm x 21.0cm)",
+    "A6 (10.5cm x 14.8cm)",
+    "Fotografía / Photo (10.0cm x 15.0cm)",
+    "Tarjeta Índice / Index Card (12.7cm x 20.3cm)",
+    "Fotografía 2L / Photo 2L (13.0cm x 18.0cm)",
+    "Sobre C5 / Envelope C5 (16.2cm x 22.9cm)",
+    "Com-10 (10.5cm x 24.1cm)",
+    "DL (11.0cm x 22.0cm)",
+    "Monarch (9.8cm x 19.1cm)"
   ],
   "max_month_job": "Hasta 2,500 páginas",
   "recommended_month_job": "De 50 a 1,000 páginas",
@@ -70,5 +71,10 @@
       "model": "BTD100Y",
       "yield_pages": 5000
     }
-  }
+  },
+  "supported_paper_weight_g_m2": {
+    "standard_container": "64 a 220 g/m2",
+    "bypass": "64 a 300 g/m2"
+  },
+  "technical_data_sheet_link": "https://uatmexico.brother-usa.com/-/media/brother/product-catalog-media/documents/2024/09/12/09/42/mex_brochure_dcpt220.pdf"
 }
