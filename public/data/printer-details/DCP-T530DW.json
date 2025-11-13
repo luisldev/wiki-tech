@@ -27,21 +27,21 @@
   "max_paper_out": "50 hojas (hasta A4/Carta)",
   "supported_paper_type": "Papel normal, papel para inyección de tinta, papel reciclado, papel satinado",
   "supported_paper_size": [
-    "A4",
-    "Carta",
-    "Legal",
-    "Legal de México",
-    "Folio",
-    "Ejecutivo",
-    "A5",
-    "A6",
-    "Foto 4x6\"",
-    "Ficha 5x8\"",
-    "Foto 5x7\"",
-    "Sobre C5",
-    "Com-10",
-    "Sobre DL",
-    "Monarca"
+    "A4 (21.0 x 29.7 cm)",
+    "Carta (21.6 x 27.9 cm)",
+    "Legal (21.6 x 35.6 cm)",
+    "Legal de México (21.6 x 34.0 cm)",
+    "Folio (21.6 x 33.0 cm)",
+    "Ejecutivo (18.4 x 26.7 cm)",
+    "A5 (14.8 x 21.0 cm)",
+    "A6 (10.5 x 14.8 cm)",
+    "Foto 4x6\" (10.0 x 15.0 cm)",
+    "Ficha 5x8\" (12.7 x 20.3 cm)",
+    "Foto 5x7\" (13.0 x 18.0 cm)",
+    "Sobre C5 (16.2 x 22.9 cm)",
+    "Com-10 (10.5 x 24.1 cm)",
+    "Sobre DL (11.0 x 22.0 cm)",
+    "Monarca (9.8 x 19.1 cm)"
   ],
   "max_month_job": "Hasta 2,500 páginas",
   "recommended_month_job": "50 a 1,000 páginas",
@@ -50,5 +50,10 @@
     "cyan": { "model": "BTD100C", "yield_pages": 5000 },
     "magenta": { "model": "BTD100M", "yield_pages": 5000 },
     "yellow": { "model": "BTD100Y", "yield_pages": 5000 }
-  }
+  },
+  "supported_paper_weight_g_m2": {
+    "standard_container": "64 - 220 g/m²",
+    "bypass": "64 - 300 g/m²"
+  },
+  "technical_data_sheet_link": "https://www.brother.com.mx/-/media/brother/product-catalog-media/documents/2025/10/16/14/46/bluchure-dcp-t530dw-mex.pdf"
 }

@@ -6,19 +6,10 @@
   "printer_technology": "Inyección de tinta a color",
   "description": "Impresora multifuncional 4 en 1 de inyección de tinta continua a color MFC-T930DW con Wi-Fi, Ethernet, dúplex y ADF.",
   "printer_speed": {
-    "ppm": {
-      "black": 30,
-      "color": 26
-    },
-    "ipm": {
-      "black": 17,
-      "color": 16
-    }
+    "ppm": { "black": 30, "color": 26 },
+    "ipm": { "black": 17, "color": 16 }
   },
-  "duplex_functionality": {
-    "print_type": "automatic",
-    "scan_copy": true
-  },
+  "duplex_functionality": { "print_type": "automatic", "scan_copy": true },
   "has_adf": true,
   "has_bypass_tray": true,
   "supports_legal_paper": true,
@@ -33,49 +24,37 @@
     "macOS: v12, v13, v14",
     "Chrome OS"
   ],
-  "max_paper_capacity": {
-    "standard_container": 150,
-    "bypass": 80,
-    "adf": 20
-  },
+  "max_paper_capacity": { "standard_container": 150, "bypass": 80, "adf": 20 },
   "max_paper_out": "50 hojas",
   "supported_paper_type": "Papel normal, papel para inyección de tinta, papel reciclado, papel satinado",
   "supported_paper_size": [
-    "A4",
-    "Carta",
-    "Legal",
-    "Executive",
-    "A5",
-    "A6",
-    "Fotografía (10 x 15 cm)",
-    "Tarjeta Índice (12,7 x 20,3 cm)",
-    "Fotografía 2L (13 x 18 cm)",
-    "Sobre C5",
-    "Com-10",
-    "DL",
-    "Monarch",
-    "LGL",
-    "Folio",
-    "México Legal"
+    "A4 (21.0 x 29.7 cm)",
+    "Carta (21.6 x 27.9 cm)",
+    "Legal (21.6 x 35.6 cm)",
+    "Ejecutivo (18.4 x 26.7 cm)",
+    "A5 (14.8 x 21.0 cm)",
+    "A6 (10.5 x 14.8 cm)",
+    "Foto 4x6\" (10.0 x 15.0 cm)",
+    "Ficha 5x8\" (12.7 x 20.3 cm)",
+    "Foto 5x7\" (13.0 x 18.0 cm)",
+    "Sobre C5 (16.2 x 22.9 cm)",
+    "Com-10 (10.5 x 24.1 cm)",
+    "Sobre DL (11.0 x 22.0 cm)",
+    "Monarca (9.8 x 19.1 cm)",
+    "Folio (21.6 x 33.0 cm)",
+    "Legal de México (21.6 x 34.0 cm)"
   ],
   "max_month_job": "Hasta 2,500 páginas",
   "recommended_month_job": "De 50 a 1,000 páginas",
   "consumables": {
-    "black": {
-      "model": "BTD100BK",
-      "yield_pages": 7500
-    },
-    "cyan": {
-      "model": "BTD100C",
-      "yield_pages": 5000
-    },
-    "magenta": {
-      "model": "BTD100M",
-      "yield_pages": 5000
-    },
-    "yellow": {
-      "model": "BTD100Y",
-      "yield_pages": 5000
-    }
-  }
+    "black": { "model": "BTD100BK", "yield_pages": 7500 },
+    "cyan": { "model": "BTD100C", "yield_pages": 5000 },
+    "magenta": { "model": "BTD100M", "yield_pages": 5000 },
+    "yellow": { "model": "BTD100Y", "yield_pages": 5000 }
+  },
+  "supported_paper_weight_g_m2": {
+    "standard_container": "64 - 220 g/m²",
+    "bypass": "64 - 300 g/m²"
+  },
+  "technical_data_sheet_link": "https://content.syndigo.com/asset/210d66e7-5c7f-4a0a-a547-dde2ddefb873/original.pdf"
 }
