@@ -111,7 +111,7 @@ function Modal({
     isOpen && !isClosing
       ? 'scale-100 translate-y-0 opacity-100'
       : 'scale-95 translate-y-4 opacity-0'
-  } ${className} flex flex-col max-h-[90vh]`;
+  } ${className} flex flex-col max-h-[90vh] max-h-[90lvh]`;
 
   return createPortal(
     <div

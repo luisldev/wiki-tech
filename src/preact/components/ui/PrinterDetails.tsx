@@ -30,7 +30,7 @@ export default function PrinterDetails({ printer }: PrinterDetailsProps) {
         </div>
       </div>
       <hr className='border-neutral-500 dark:border-neutral-600 my-4' />
-      <div className='font-secondary h-[70dvh]'>
+      <div className='font-secondary'>
         <div className='space-y-4 pb-2'>
           <div>
             <h3 className='text-lg font-semibold text-neutral-900 dark:text-neutral-100 mb-3 flex items-center gap-2'>

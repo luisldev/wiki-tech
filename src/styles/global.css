@@ -14,6 +14,13 @@
   src: url('/fonts/OpenSans-VariableFont.ttf') format('woff2');
 }
 
+@layer utilities {
+  .h-stable-screen {
+    height: 100vh;
+    height: 100lvh;
+  }
+}
+
 @theme {
   --font-primary: 'Plus Jakarta Sans', ui-sans-serif;
   --font-secondary: 'Open Sans', ui-sans-serif;
