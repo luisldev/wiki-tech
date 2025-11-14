@@ -14,8 +14,6 @@ interface ModalProps {
   onClose: () => void;
   children: ReactNode;
   className?: string;
-  title?: string;
-  showCloseButton?: boolean;
   closeOnBackdrop?: boolean;
   closeOnEscape?: boolean;
   size?: 'sm' | 'default' | 'lg' | 'xl' | 'full';
@@ -27,8 +25,6 @@ function Modal({
   onClose,
   children,
   className = '',
-  title = '',
-  showCloseButton = true,
   closeOnBackdrop = true,
   closeOnEscape = true,
   size = 'default',
@@ -37,7 +33,6 @@ function Modal({
   const [isClosing, setIsClosing] = useState(false);
   const modalRef = useRef<HTMLDivElement>(null);
   const modalId = useId();
-  const titleId = `${modalId}-title`;
   const contentId = `${modalId}-content`;
 
   // Configuración de las clases de tamaño
@@ -110,20 +105,19 @@ function Modal({
     isOpen && !isClosing ? 'bg-black/50 opacity-100' : 'bg-black/0 opacity-0'
   }`;
 
-  const modalClasses = `relative h-max bg-white dark:bg-neutral-900 rounded-xl shadow-xl transition-transform duration-200 ease-out p-2 ${
+  const modalClasses = `relative bg-white dark:bg-neutral-900 rounded-xl shadow-xl transition-transform duration-200 ease-out p-2 ${
     sizeClasses[size]
   } ${
     isOpen && !isClosing
       ? 'scale-100 translate-y-0 opacity-100'
       : 'scale-95 translate-y-4 opacity-0'
-  } ${className} flex flex-col max-h-full`;
+  } ${className} flex flex-col max-h-[90vh] max-h-[90lvh]`;
 
   return createPortal(
     <div
       ref={modalRef}
       role='dialog'
       aria-modal='true'
-      aria-labelledby={title ? titleId : undefined}
       aria-describedby={contentId}
       className={backdropClasses}
       onClick={handleBackdropClick}
@@ -135,45 +129,34 @@ function Modal({
       tabIndex={-1}
     >
       <div className={`${modalClasses}`}>
-        {(title || showCloseButton) && (
-          <div className='flex flex-row w-full items-center justify-between px-2 py-1'>
-            {title && (
-              <h2 id={titleId} className='text-lg font-semibold font-primary'>
-                {title}
-              </h2>
-            )}
-            {showCloseButton && (
-              <button
-                className='p-1 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-full transition-colors duration-150 ease-in group ml-auto'
-                type='button'
-                onClick={handleClose}
-                aria-label='Cerrar modal'
-              >
-                <div className='transform group-hover:scale-110 transition-transform duration-150'>
-                  <svg
-                    className='w-5 h-5 text-gray-500 dark:text-neutral-400'
-                    fill='none'
-                    stroke='currentColor'
-                    viewBox='0 0 24 24'
-                  >
-                    <title>Cerrar</title>
-                    <path
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      strokeWidth={2}
-                      d='M6 18L18 6M6 6l12 12'
-                    />
-                  </svg>
-                </div>
-              </button>
-            )}
+        <button
+          className='p-1 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-full transition-colors duration-150 ease-in group ml-auto'
+          type='button'
+          onClick={handleClose}
+          aria-label='Cerrar modal'
+        >
+          <div className='transform group-hover:scale-110 transition-transform duration-150'>
+            <svg
+              className='w-5 h-5 text-gray-500 dark:text-neutral-400'
+              fill='none'
+              stroke='currentColor'
+              viewBox='0 0 24 24'
+            >
+              <title>Cerrar</title>
+              <path
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth={2}
+                d='M6 18L18 6M6 6l12 12'
+              />
+            </svg>
           </div>
-        )}
+        </button>
         <div
           id={contentId}
-          className={`flex-1 transition-opacity duration-300 delay-75 p-1 overflow-y-auto scrollbar scrollbar-thumb-rounded-full scrollbar-track-transparent scrollbar-thumb-neutral-300 dark:scrollbar-thumb-neutral-600 font-secondary ${
+          className={`flex-1 transition-opacity duration-300 delay-75 px-1 pb-1 overflow-y-auto scrollbar scrollbar-thumb-rounded-full scrollbar-track-transparent scrollbar-thumb-neutral-300 dark:scrollbar-thumb-neutral-600 font-secondary ${
             isClosing ? 'opacity-0' : 'opacity-100'
-          } ${!title && !showCloseButton ? 'p-4' : ''}`}
+          }`}
         >
           {children}
         </div>
