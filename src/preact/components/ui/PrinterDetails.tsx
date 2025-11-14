@@ -221,13 +221,10 @@ export default function PrinterDetails({ printer }: PrinterDetailsProps) {
                 y confiabilidad.
               </p>
               <p>
-                <strong>Ciclo Mensual de Trabajo Máximo</strong>
+                <strong>Ciclo Mensual de Trabajo Máximo </strong>
                 Este valor representa el límite superior de la capacidad de la
                 impresora y se utiliza principalmente como una métrica de
-                durabilidad y comparación. Definición: Es el número máximo de
-                páginas que la impresora puede imprimir en un mes sin sufrir
-                daños o desgastes prematuros. Es una medida de la robustez del
-                hardware.
+                durabilidad y comparación.
               </p>
               <p>
                 <strong>Implicación:</strong> El ciclo máximo es un pico de
@@ -267,21 +264,19 @@ export default function PrinterDetails({ printer }: PrinterDetailsProps) {
                 El rendimiendo del (los) consumible (s) se calcula al 5% de
                 cobertura
               </p>
-              <ul>
-                <li>
-                  El 5% es simplemente el punto de referencia acordado para que
-                  todas las marcas puedan decir "esta botella rinde X páginas".
-                </li>
-                <li>
-                  Si tus impresiones usan más tinta que ese 5% (por ejemplo,
-                  imprimes muchas tablas o fotos), la botella te durará menos
-                  páginas que el rendimiento anunciado.
-                </li>
-                <li>
-                  Si imprimes menos tinta que ese 5% (pocas líneas de texto), te
-                  durará más.
-                </li>
-              </ul>
+              <p>
+                El 5% es simplemente el punto de referencia acordado para que
+                todas las marcas puedan decir "esta botella rinde X páginas".
+              </p>
+              <p>
+                Si tus impresiones usan más tinta que ese 5% (por ejemplo,
+                imprimes muchas tablas o fotos), la botella te durará menos
+                páginas que el rendimiento anunciado.
+              </p>
+              <p>
+                Si imprimes menos tinta que ese 5% (pocas líneas de texto), te
+                durará más.
+              </p>
               <p>
                 Es una herramienta de comparación, no una garantía de uso
                 diario.
@@ -306,19 +301,17 @@ export default function PrinterDetails({ printer }: PrinterDetailsProps) {
 
           {printer.technical_data_sheet_link && (
             <div>
-              <h3 className='text-lg font-semibold text-neutral-900 dark:text-neutral-100 mb-3 flex items-center gap-2'>
-                Documentación
-              </h3>
-              <p className='text-sm text-blue-600 dark:text-blue-400'>
+              <h3 className='font-semibold text-neutral-900 dark:text-neutral-100 mb-3'>
+                Toda la información se obtiene de{' '}
                 <a
                   href={printer.technical_data_sheet_link}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='underline hover:no-underline font-semibold'
+                  className='text-blue-500'
                 >
-                  Descargar Ficha Técnica Oficial
+                  la ficha técnica oficial
                 </a>
-              </p>
+              </h3>
             </div>
           )}
         </div>
